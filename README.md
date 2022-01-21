@@ -26,3 +26,13 @@ NB: arguments 3 and four can be n-dimensional, but must match
 
 Replacing both occurrences of MPI_ORDER_FORTRAN with MPI_ORDER_C
 causes the success / fail MPI ordering with romio321 to reverse
+
+## Building:
+
+This is a single source.
+The Makefile assumes mpicxx is available.
+Xcode 13.1 build assumes openmpi installed from MacPorts.
+Otherwise change build settings for:
+
+    HEADER_SEARCH_PATHS
+    LIBRARY_SEARCH_PATHS
