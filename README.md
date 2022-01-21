@@ -8,12 +8,12 @@ Optional argument 3:    MPI dimensions. Default: world_size,1,1,1
 Optional argument 4: Global dimensions. Default: 48,48,48,96
 NB: arguments 3 and four can be n-dimensional, but must match
 
-##Fails:
+## Fails:
 
     mpirun --mca io romio321 -np 2 MPIRead32 a.out 0 2.1 2304.4608
     mpirun --mca io romio321 -np 2 MPIRead32 a.out 0 2.1 4608.2304
 
-##Succeeds:
+## Succeeds:
 
     mpirun --mca io romio321 -np 2 MPIRead32 a.out 0 1.2 2304.4608
     mpirun --mca io romio321 -np 2 MPIRead32 a.out 0 1.2 4608.2304
@@ -22,7 +22,7 @@ NB: arguments 3 and four can be n-dimensional, but must match
     mpirun --mca io ompio    -np 2 MPIRead32 a.out 0 1.2 2304.4608
     mpirun --mca io ompio    -np 2 MPIRead32 a.out 0 1.2 4608.2304
 
-##Hint:
+## Hint:
 
 Replacing both occurrences of MPI_ORDER_FORTRAN with MPI_ORDER_C
 causes the success / fail MPI ordering with romio321 to reverse
