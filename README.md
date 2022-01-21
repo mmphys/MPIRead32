@@ -2,11 +2,11 @@
 
 Reproduce MPI error when reading > 2GB to a single rank
 
-Required argument 1: Filename used for destructive test
-Optional argument 2: Size of header in bytes. Default 0
-Optional argument 3:    MPI dimensions. Default: world_size,1,1,1
-Optional argument 4: Global dimensions. Default: 48,48,48,96
-NB: arguments 3 and four can be n-dimensional, but must match
+    Required argument 1: Filename used for destructive test
+    Optional argument 2: Size of header in bytes. Default 0
+    Optional argument 3: MPI dimensions. Default: world_size,1,1,1
+    Optional argument 4: Global dimensions. Default: 48,48,48,96
+    NB: arguments 3 and four can be n-dimensional, but must match
 
 ## Fails:
 
