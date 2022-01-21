@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		683525B727974B3D00EC8E6F /* MPIRead32 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MPIRead32; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AD44342799794500FB409E /* MPIRead32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MPIRead32.cpp; sourceTree = "<group>"; };
+		68D8CDE1279B36F1002FBB3D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		68D8CDE2279B36F1002FBB3D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		683525AE27974B3C00EC8E6F = {
 			isa = PBXGroup;
 			children = (
+				68D8CDE1279B36F1002FBB3D /* Makefile */,
+				68D8CDE2279B36F1002FBB3D /* README.md */,
 				68AD44342799794500FB409E /* MPIRead32.cpp */,
 				683525B827974B3D00EC8E6F /* Products */,
 			);
